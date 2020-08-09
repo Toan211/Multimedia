@@ -141,7 +141,7 @@ int main()
         return 1;
     }
     string encodedString, decodedString;
-    ifstream inFile(/*copy file text path: Example*/"C:/Users/Admin/source/repos/huffman_Text/huffman/test/OutPut2-10k.txt");
+    ifstream inFile(/*copy file text path: Example*/"C:/Users/Admin/Desktop/huffman_Text/huffman/test/OutPut2-10k.txt");
     string str;
     str = stream_as_string(inFile);
 
