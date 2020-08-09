@@ -90,7 +90,7 @@ int main()
     ofstream OutFile;
     OutFile.open("OutPut2-10k.txt");
     string encodedString, decodedString;
-    ifstream inFile(/*copy file text path: Example*/"C:/Users/Admin/source/repos/LZW_Text/LZW/test/Hunger2-10k.txt");
+    ifstream inFile(/*copy file text path: Example*/"C:/Users/Admin/Desktop/LZW_Text/LZW/test/Hunger2-10k.txt");
     string str;
     str = stream_as_string(inFile);
 
